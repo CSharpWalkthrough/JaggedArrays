@@ -42,22 +42,27 @@
             // 
             // lstMembers
             // 
+            this.lstMembers.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.lstMembers.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.lstMembers.FormattingEnabled = true;
             this.lstMembers.ItemHeight = 16;
             this.lstMembers.Location = new System.Drawing.Point(39, 30);
-            this.lstMembers.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lstMembers.Margin = new System.Windows.Forms.Padding(4);
             this.lstMembers.Name = "lstMembers";
-            this.lstMembers.Size = new System.Drawing.Size(255, 308);
+            this.lstMembers.Size = new System.Drawing.Size(255, 288);
             this.lstMembers.TabIndex = 1;
+            this.lstMembers.Click += new System.EventHandler(this.lstMembers_Click);
             // 
             // lstClubs
             // 
+            this.lstClubs.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lstClubs.FormattingEnabled = true;
             this.lstClubs.ItemHeight = 16;
             this.lstClubs.Location = new System.Drawing.Point(366, 30);
-            this.lstClubs.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lstClubs.Margin = new System.Windows.Forms.Padding(4);
             this.lstClubs.Name = "lstClubs";
-            this.lstClubs.Size = new System.Drawing.Size(281, 308);
+            this.lstClubs.SelectionMode = System.Windows.Forms.SelectionMode.None;
+            this.lstClubs.Size = new System.Drawing.Size(281, 304);
             this.lstClubs.TabIndex = 2;
             // 
             // contextMenuStrip1
@@ -93,7 +98,7 @@
             this.Controls.Add(this.lstClubs);
             this.Controls.Add(this.lstMembers);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmClubMembers";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
