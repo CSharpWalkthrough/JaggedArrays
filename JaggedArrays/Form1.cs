@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace JaggedArrays
 {
-    public partial class Form1 : Form
+    public partial class frmClubMembers : Form
     {
-        public Form1()
+        public frmClubMembers()
         {
             InitializeComponent();
         }

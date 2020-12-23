@@ -1,6 +1,6 @@
 ﻿namespace JaggedArrays
 {
-    partial class Form1
+    partial class frmClubMembers
     {
         /// <summary>
         /// Required designer variable.
@@ -29,12 +29,89 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            this.lstMembers = new System.Windows.Forms.ListBox();
+            this.lstClubs = new System.Windows.Forms.ListBox();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.aToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.contextMenuStrip2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // lstMembers
+            // 
+            this.lstMembers.FormattingEnabled = true;
+            this.lstMembers.ItemHeight = 16;
+            this.lstMembers.Location = new System.Drawing.Point(39, 30);
+            this.lstMembers.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lstMembers.Name = "lstMembers";
+            this.lstMembers.Size = new System.Drawing.Size(255, 308);
+            this.lstMembers.TabIndex = 1;
+            // 
+            // lstClubs
+            // 
+            this.lstClubs.FormattingEnabled = true;
+            this.lstClubs.ItemHeight = 16;
+            this.lstClubs.Location = new System.Drawing.Point(366, 30);
+            this.lstClubs.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lstClubs.Name = "lstClubs";
+            this.lstClubs.Size = new System.Drawing.Size(281, 308);
+            this.lstClubs.TabIndex = 2;
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // contextMenuStrip2
+            // 
+            this.contextMenuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aToolStripMenuItem,
+            this.bToolStripMenuItem});
+            this.contextMenuStrip2.Name = "contextMenuStrip2";
+            this.contextMenuStrip2.Size = new System.Drawing.Size(82, 48);
+            // 
+            // aToolStripMenuItem
+            // 
+            this.aToolStripMenuItem.Name = "aToolStripMenuItem";
+            this.aToolStripMenuItem.Size = new System.Drawing.Size(81, 22);
+            this.aToolStripMenuItem.Text = "a";
+            // 
+            // bToolStripMenuItem
+            // 
+            this.bToolStripMenuItem.Name = "bToolStripMenuItem";
+            this.bToolStripMenuItem.Size = new System.Drawing.Size(81, 22);
+            this.bToolStripMenuItem.Text = "b";
+            // 
+            // frmClubMembers
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(692, 375);
+            this.Controls.Add(this.lstClubs);
+            this.Controls.Add(this.lstMembers);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "frmClubMembers";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.contextMenuStrip2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.ListBox lstMembers;
+        private System.Windows.Forms.ListBox lstClubs;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
+        private System.Windows.Forms.ToolStripMenuItem aToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bToolStripMenuItem;
+        private System.Windows.Forms.BindingSource bindingSource1;
     }
 }
 
