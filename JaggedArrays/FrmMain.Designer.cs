@@ -1,6 +1,6 @@
 ﻿namespace JaggedArrays
 {
-    partial class frmClubMembers
+    partial class FrmMain
     {
         /// <summary>
         /// Required designer variable.
@@ -90,7 +90,7 @@
             this.bToolStripMenuItem.Size = new System.Drawing.Size(81, 22);
             this.bToolStripMenuItem.Text = "b";
             // 
-            // frmClubMembers
+            // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -99,7 +99,7 @@
             this.Controls.Add(this.lstMembers);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "frmClubMembers";
+            this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.contextMenuStrip2.ResumeLayout(false);

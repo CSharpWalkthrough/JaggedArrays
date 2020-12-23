@@ -3,10 +3,10 @@ using System.Windows.Forms;
 
 namespace JaggedArrays
 {
-    public partial class frmClubMembers : Form
+    public partial class FrmMain : Form
     {
         private string[][] memberClubs;
-        public frmClubMembers()
+        public FrmMain()
         {
             InitializeComponent();
 
