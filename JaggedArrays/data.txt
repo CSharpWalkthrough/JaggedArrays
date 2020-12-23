@@ -1,0 +1,10 @@
+Jack,Music,Tennis,Chess
+Max,Tennis
+Alice,Music,Chess,Basketball,Soccer
+Rick,Tennis,Basketball,Soccer,
+Kaylie,Tennis,Chess,Basketball,Soccer,Ski
+Steve,Music,Soccer
+Shawn,Tennis,Chess,Soccer
+Olivia,Music,Chess,Basketball,Ski
+Lauren,Chess
+Terry,Tennis,Chess
