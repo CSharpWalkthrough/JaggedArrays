@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaggedArrays", "JaggedArrays\JaggedArrays.csproj", "{EDB14AF4-BC03-48EC-A0AB-9CF49142F9AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaggedArrays.Exercice", "JaggedArrays\JaggedArrays.Exercice.csproj", "{EDB14AF4-BC03-48EC-A0AB-9CF49142F9AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaggedArrays.Tutorial", "JaggedArrays.Tutorial\JaggedArrays.Tutorial.csproj", "{E0D703F2-3A23-420A-9307-C48E46F9A684}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EDB14AF4-BC03-48EC-A0AB-9CF49142F9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDB14AF4-BC03-48EC-A0AB-9CF49142F9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDB14AF4-BC03-48EC-A0AB-9CF49142F9AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0D703F2-3A23-420A-9307-C48E46F9A684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0D703F2-3A23-420A-9307-C48E46F9A684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0D703F2-3A23-420A-9307-C48E46F9A684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0D703F2-3A23-420A-9307-C48E46F9A684}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
