@@ -13,25 +13,23 @@ namespace JaggedArrays
             // Read data file and Initialize jagged array
             InitializeMembers();
 
-            // Display members in lstMembers control
-            foreach (string[] memberClub in memberClubs)
-                lstMembers.Items.Add(memberClub[0]);
+            // TODO: Display members in lstMembers control
+
         }
 
         private void lstMembers_Click(object sender, System.EventArgs e)
         {
-            // Retrieve index of selected item
-            int index = lstMembers.SelectedIndex;
+            // TODO: Retrieve index of selected item
 
-            // Clear lstClubs items
-            lstClubs.Items.Clear();
 
-            // Retrieve row from memberClubs
-            string[] clubs = memberClubs[index];
+            // TODO: Clear lstClubs items
 
-            // Display clubs in lstClubs control
-            for (int i = 1; i < clubs.Length; i++)
-                lstClubs.Items.Add(clubs[i]);
+
+            // TODO: Retrieve row from memberClubs
+
+
+            // TODO: Display clubs in lstClubs control
+
         }
 
         #region DO NOT EDIT
