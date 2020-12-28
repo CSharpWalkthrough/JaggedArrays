@@ -43,7 +43,7 @@ Our code would look something like this:
   jaggedArray[1] = new int[] { 3, 4, 5, 6 };
 
   //Visually our array looks like this:
-  // 1 2
+  // 0 0
   // 3 4 5
 ```
 
